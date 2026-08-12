@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiry - The Gaming Club</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                 THE GAMING CLUB
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="services.html">Games & Services</a>
+                </li>
+
+                <li>
+                    <a href="enquiry.html">Enquiry</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- PAGE INTRODUCTION -->
+
+    <section class="page-hero">
+
+        <h1>
+            MAKE AN <span>ENQUIRY</span>
+        </h1>
+
+        <p>
+            Ready to play? Let us know what you are interested in.
+        </p>
+
+    </section>
+
+
+
+    <!-- ENQUIRY SECTION -->
+
+    <section class="enquiry-section">
+
+        <div class="enquiry-container">
+
+
+            <!-- INTRODUCTION -->
+
+            <div class="enquiry-intro">
+
+                <p class="section-label">
+                    READY PLAYER ONE?
+                </p>
+
+                <h2>
+                    LET'S GET YOU IN THE GAME.
+                </h2>
+
+                <p>
+                    Complete the form below to make an enquiry
+                    about our gaming sessions, tournaments,
+                    group bookings or other services.
+                </p>
+
+                <p>
+                    A member of The Gaming Club team will review
+                    your enquiry and respond with more information.
+                </p>
+
+            </div>
+
+
+
+            <!-- ENQUIRY FORM -->
+
+            <form class="enquiry-form">
+
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="fullname">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- PHONE -->
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- ENQUIRY TYPE -->
+
+                <div class="form-group">
+
+                    <label for="enquiry-type">
+                        What are you enquiring about?
+                    </label>
+
+                    <select
+                        id="enquiry-type"
+                        name="enquiry-type"
+                        required
+                    >
+
+                        <option value="">
+                            Select an option
+                        </option>
+
+                        <option value="gaming-session">
+                            Gaming Session
+                        </option>
+
+                        <option value="tournament">
+                            Tournament
+                        </option>
+
+                        <option value="group-booking">
+                            Group Booking
+                        </option>
+
+                        <option value="event">
+                             Event Booking
+                        </option>
+
+                        <option value="membership">
+                            Membership
+                        </option>
+
+                        <option value="general">
+                            General Enquiry
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- FAVOURITE GAME -->
+
+                <div class="form-group">
+
+                    <label for="game">
+                        Which game are you interested in?
+                    </label>
+
+                    <select id="game" name="game">
+
+                        <option value="">
+                            Select a game
+                        </option>
+
+                        <option value="ea-fc">
+                            EA FC 26
+                        </option>
+
+                        <option value="call-of-duty">
+                            Call of Duty
+                        </option>
+
+                        <option value="fortnite">
+                            Fortnite
+                        </option>
+
+                        <option value="mortal-kombat">
+                            Mortal Kombat
+                        </option>
+
+                        <option value="need for speed">
+                            need for speed
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- NUMBER OF PLAYERS -->
+
+                <div class="form-group">
+
+                    <label for="players">
+                        Number of Players
+                    </label>
+
+                    <select id="players" name="players">
+
+                        <option value="">
+                            Select number of players
+                        </option>
+
+                        <option value="1">
+                            1 Player
+                        </option>
+
+                        <option value="2">
+                            2 Players
+                        </option>
+
+                        <option value="3">
+                            3 Players
+                        </option>
+
+                        <option value="4">
+                            4 Players
+                        </option>
+
+                        <option value="5-plus">
+                            5+ Players
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- DATE -->
+
+                <div class="form-group">
+
+                    <label for="date">
+                        Preferred Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                    >
+
+                </div>
+
+
+
+                <!-- TIME -->
+
+                <div class="form-group">
+
+                    <label for="time">
+                        Preferred Time
+                    </label>
+
+                    <input
+                        type="time"
+                        id="time"
+                        name="time"
+                    >
+                </div>
+
+
+
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Additional Information
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Tell us anything else we should know..."
+                    ></textarea>
+
+                </div>
+
+
+
+                <!-- TERMS -->
+
+                <div class="checkbox-group">
+
+                    <input
+                        type="checkbox"
+                        id="agreement"
+                        name="agreement"
+                        required
+                    >
+
+                    <label for="agreement">
+                        I confirm that the information provided is correct.
+                    </label>
+
+                </div>
+
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="primary-button"
+                >
+                    SUBMIT ENQUIRY
+                </button>
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>
+             THE GAMING CLUB
+        </h3>
+
+        <p>
+            PLAY. COMPETE. CONNECT.
+        </p>
+
+        <p class="copyright">
+            &copy; 2026 The Gaming Club 
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
