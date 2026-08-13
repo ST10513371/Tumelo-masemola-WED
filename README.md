@@ -121,11 +121,11 @@ Contact Us
 
 The main buttons also link visitors to relevant pages.
 
-For example:
-"Book a Session" → Enquiry page
-"Explore Games" → Games & Services page
-"Book Now" → Enquiry page
-"Enter Tournament" → Enquiry page
+For example:<br>
+"Book a Session" → Enquiry page<br>
+"Explore Games" → Games & Services page<br>
+"Book Now" → Enquiry page<br>
+"Enter Tournament" → Enquiry page<br>
 
 # 5. Timeline and Milestones
 Week 1 - gather website content and Complete the website proposal and plan the website structure and features<br>
