@@ -26,7 +26,7 @@ make an enquiry about a gaming session.
 The website is intended for a fictional business and is not currently being used as
 a real commercial website.
 
-# 2. Website Goals and Objectives
+# 2. Website Goals and Objectives 
 
 The main goal of The Gaming Club website is to create an attractive and easy-to-use
 website that gives visitors useful information about the gaming lounge.
@@ -134,4 +134,7 @@ Week 3 - Apply CSS styling, colours, fonts, images and page layouts.<br>
 Week 4 - Add JavaScript functionality such as the booking form and form validation.<br>
 Week 5 - Test the website and make final design changes and prepare the final  website for submission.<br>
 
+# 6. Reference
+•	Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
+•	ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].
 
