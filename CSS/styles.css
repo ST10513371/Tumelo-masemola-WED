@@ -1,0 +1,1001 @@
+
+
+ /* 
+   THE GAMING CLUB - MAIN STYLESHEET
+   */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    color: white;
+    line-height: 1.6;
+}
+
+
+/* 
+   HEADER
+   */
+
+header {
+    background-color: #181818;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+/* Main heading */
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+header h1 span {
+    color: #00bfff;
+}
+
+
+/* Gaming Club logo */
+
+header img {
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   NAVIGATION BAR
+   ========================================= */
+
+.navbar {
+    width: 100%;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+/* Navigation links */
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+/* Navigation hover effect */
+
+.nav-links a:hover {
+    background-color: #00bfff;
+    color: black;
+    border-radius: 5px;
+}
+
+
+/* =========================================
+   HERO SECTION
+   ========================================= */
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #202020;
+}
+
+
+/* Hero content */
+
+.hero-content {
+    max-width: 700px;
+}
+
+
+/* Hero heading */
+
+.hero-content h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00bfff;
+    letter-spacing: 2px;
+}
+
+
+/* Hero paragraph */
+
+.hero-text {
+    font-size: 19px;
+    margin-bottom: 30px;
+    color: #dddddd;
+}
+
+
+/* =========================================
+   HERO BUTTONS
+   ========================================= */
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+
+/* Main button */
+
+.primary-button,
+.secondary-button {
+    display: inline-block;
+    padding: 13px 25px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+/* Book a session button */
+
+.primary-button {
+    background-color: #00bfff;
+    color: black;
+}
+
+
+/* Explore games button */
+
+.secondary-button {
+    border: 2px solid #00bfff;
+    color: white;
+    background-color: transparent;
+}
+
+
+/* Button hover effect */
+
+.primary-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Second button hover effect */
+
+.secondary-button:hover {
+    background-color: #00bfff;
+    color: black;
+}
+
+
+/* ====== FOOTER ====== */
+
+footer {
+    background-color: #181818;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+footer p {
+    margin: 8px;
+    color: #dddddd;
+}
+
+footer p:first-child {
+    color: #00bfff;
+    font-weight: bold;
+}
+
+
+/*======= RESPONSIVE DESIGN TABLET ======== */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+
+    .hero-content h3 {
+        font-size: 27px;
+    }
+
+    .hero-text {
+        font-size: 17px;
+    }
+}
+
+
+/* ========== RESPONSIVE DESIGN MOBILE =========== */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header img {
+        width: 250px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav-links a {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero-content h3 {
+        font-size: 23px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 200px;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+
+
+/* ====== ABOUT PAGE =======*/
+
+.page-hero {
+    text-align: center;
+    background-color: #202020;
+    padding: 60px 20px;
+}
+
+.page-hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.page-hero h1 span {
+    color: #00bfff;
+}
+
+.page-hero p {
+    font-size: 18px;
+    color: #dddddd;
+    margin-bottom: 25px;
+}
+
+.page-hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* ABOUT SECTION */
+
+.about-section {
+    background-color: #111111;
+    padding: 60px 20px;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.section-label {
+    color: #00bfff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #dddddd;
+    margin-bottom: 15px;
+}
+
+
+/* MISSION AND VISION */
+
+.mission-section {
+    background-color: #202020;
+    padding: 60px 20px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-heading p {
+    color: #00bfff;
+    font-weight: bold;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mission-card {
+    background-color: #181818;
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+.mission-card h3 {
+    color: #00bfff;
+    margin-bottom: 15px;
+}
+
+.mission-card p {
+    color: #dddddd;
+    margin-bottom: 15px;
+}
+
+
+/* GAMING COMMUNITY */
+
+.audience-section {
+    background-color: #111111;
+    padding: 60px 20px;
+}
+
+.audience-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.audience-card {
+    background-color: #202020;
+    padding: 25px;
+    width: 33.33%;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+.audience-card h3 {
+    color: #00bfff;
+    margin-bottom: 15px;
+}
+
+.audience-card p {
+    color: #dddddd;
+    margin-bottom: 10px;
+}
+
+
+/* CALL TO ACTION */
+
+.cta {
+    background-color: #202020;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    color: #dddddd;
+    margin-bottom: 25px;
+}
+
+
+/* BUTTON */
+
+.primary-button {
+    display: inline-block;
+    background-color: #00bfff;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .mission-container {
+        flex-direction: column;
+    }
+
+    .mission-card {
+        width: 100%;
+    }
+
+    .audience-container {
+        flex-direction: column;
+    }
+
+    .audience-card {
+        width: 100%;
+    }
+
+    .page-hero h1 {
+        font-size: 32px;
+    }
+
+    .about-section,
+    .mission-section,
+    .audience-section {
+        padding: 40px 20px;
+    }
+
+}
+
+
+
+
+
+/* ======== ENQUIRY PAGE======= */
+
+
+/* PAGE INTRODUCTION */
+
+.page-hero {
+    text-align: center;
+    background-color: #202020;
+    padding: 60px 20px;
+}
+
+.page-hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.page-hero h1 span {
+    color: #00bfff;
+}
+
+.page-hero p {
+    font-size: 18px;
+    color: #dddddd;
+}
+
+
+/* ========= ENQUIRY SECTION =========== */
+
+.enquiry-section {
+    background-color: #111111;
+    padding: 60px 20px;
+}
+
+.enquiry-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* =========== ENQUIRY INTRODUCTION ========== */
+
+.enquiry-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-label {
+    color: #00bfff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.enquiry-intro h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.enquiry-intro p {
+    color: #dddddd;
+    font-size: 17px;
+}
+
+
+/* ========== ENQUIRY FORM =========== */
+
+.enquiry-form {
+    background-color: #202020;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Form sections */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Form labels */
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+/* Text boxes, dropdowns and date/time */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #111111;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* Placeholder text */
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaaaaa;
+}
+
+
+/* ============== FORM FOCUS EFFECT =========== */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border: 2px solid #00bfff;
+}
+
+
+/* ======= CHECKBOX ========= */
+
+.checkbox-group {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group input {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-group label {
+    font-size: 15px;
+}
+
+
+/* ========= SUBMIT BUTTON ========= */
+
+.primary-button {
+    display: inline-block;
+    background-color: #00bfff;
+    color: black;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Button hover effect */
+
+.primary-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* ========== FOOTER ============= */
+
+footer {
+    background-color: #181818;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 10px;
+    color: #dddddd;
+}
+
+footer p:first-of-type {
+    color: #00bfff;
+    font-weight: bold;
+}
+
+
+/* Google Maps */
+
+footer iframe {
+    max-width: 100%;
+    height: 350px;
+    border: 0;
+    margin: 20px 0;
+}
+
+
+/* =========== TABLET RESPONSIVE DESIGN =========== */
+
+@media (max-width: 768px) {
+
+    .page-hero h1 {
+        font-size: 32px;
+    }
+
+    .enquiry-section {
+        padding: 40px 15px;
+    }
+
+    .enquiry-form {
+        padding: 25px;
+    }
+
+    .enquiry-intro h2 {
+        font-size: 26px;
+    }
+}
+
+
+/* ======== MOBILE RESPONSIVE DESIGN ========= */
+
+@media (max-width: 480px) {
+
+    .page-hero {
+        padding: 40px 15px;
+    }
+
+    .page-hero h1 {
+        font-size: 27px;
+    }
+
+    .page-hero p {
+        font-size: 16px;
+    }
+
+    .enquiry-section {
+        padding: 30px 10px;
+    }
+
+    .enquiry-form {
+        padding: 20px;
+    }
+
+    .enquiry-intro h2 {
+        font-size: 23px;
+    }
+
+    .enquiry-intro p {
+        font-size: 15px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 15px;
+    }
+
+    .checkbox-group {
+        align-items: flex-start;
+    }
+
+    .primary-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+
+
+/* ======= TABLE =======*/
+
+.table-section {
+    background-color: #111111;
+    padding: 60px 20px;
+}
+
+.gaming-table {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #181818;
+}
+
+.gaming-table th {
+    background-color: #00bfff;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+.gaming-table td {
+    color: #dddddd;
+    padding: 15px;
+    border-bottom: 1px solid #333333;
+}
+
+.gaming-table tr:hover {
+    background-color: #202020;
+}
+
+
+.table-section {
+    background-color: #111111;
+    padding: 60px 20px;
+}
+
+.gaming-table {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #181818;
+}
+
+.gaming-table th {
+    background-color: #00bfff;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+.gaming-table td {
+    color: #dddddd;
+    padding: 15px;
+    border-bottom: 1px solid #333333;
+}
+
+.gaming-table tr:hover {
+    background-color: #202020;
+}
+
+
+
+
+/* ======== CONTACT PAGE ======== */
+
+.contact-section {
+    background-color: #111111;
+    padding: 60px 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contact-card {
+    background-color: #202020;
+    padding: 30px 20px;
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+.contact-card h3 {
+    color: #00bfff;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: #dddddd;
+    line-height: 1.6;
+}
+
+
+/* CONTACT ICON */
+
+.contact-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.contact-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* CONTACT FORM */
+
+.contact-form-section {
+    background-color: #202020;
+    padding: 60px 20px;
+}
+
+.contact-form-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-introduction {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form-introduction h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.form-introduction p {
+    color: #dddddd;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #111111;
+    color: white;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #00bfff;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+
+/* ======== BUTTON ======== */
+
+.contact-form-container .primary-button {
+    background-color: #00bfff;
+    color: black;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form-container .primary-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* ======== MOBILE ======== */
+
+@media (max-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-form-section {
+        padding: 40px 20px;
+    }
+
+}
