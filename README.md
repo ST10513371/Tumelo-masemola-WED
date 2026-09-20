@@ -138,3 +138,13 @@ Week 5 - Test the website and make final design changes and prepare the final  w
 •	Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
 •	ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].
 
+
+# Changes Made From Part 1
+1 I Added CSS styling to improve the appearance of the website.
+2 I have Used a black, dark grey and bright blue colour theme.
+3 I have added tables for gaming facilities and pricing to make information simpler to read and understand.
+4 I have designed the layout of the website using css to make it more appealing to users.
+5 I have intergrated my web pages to work together with css. 
+6 I have included icons to the contact page. 
+7 I have  Added hover effects to buttons and navigation links.
+8 I have Added responsive design so the website so it can work on smaller screens.
