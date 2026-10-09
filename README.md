@@ -134,12 +134,24 @@ Week 3 - Apply CSS styling, colours, fonts, images and page layouts.<br>
 Week 4 - Add JavaScript functionality such as the booking form and form validation.<br>
 Week 5 - Test the website and make final design changes and prepare the final  website for submission.<br>
 
-# 6. Reference
-•	Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
-•	ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].
+# 6. Part 1 details 
+Part 1 is mostly based on creating the HTML sttructure which includes all the pages for the website.
+Part 1 contains all the information about the website , The idea behind it and The main objectives of the website.
+Part 1 also included Adding features and Functionality to the website
+
+#    Part 2 details
+Part 2 is mostly based on adding the CSS into the website to make it more appealing to use and to also improve the experience of the user .
+
+Part 2 was for 
+- adding tables 
+- adding colors 
+- aligning the texts properly 
+- Adding CSS  
+- adjusting the width and lenth of the picture , tables and texts
+- Testing if the website would still work with different screen sizes
 
 
-# Changes Made From Part 1
+# 7. Changelog
 1 I Added CSS styling to improve the appearance of the website.
 2 I have Used a black, dark grey and bright blue colour theme.
 3 I have added tables for gaming facilities and pricing to make information simpler to read and understand.
@@ -148,3 +160,7 @@ Week 5 - Test the website and make final design changes and prepare the final  w
 6 I have included icons to the contact page. 
 7 I have  Added hover effects to buttons and navigation links.
 8 I have Added responsive design so the website so it can work on smaller screens.
+
+# 8. Reference
+•	Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
+•	ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].
