@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
+ 
+ <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Enquiry | The Gaming Club</title>
-     <link rel="icon" type="image/png" href="images/home page.png">
+    <title>Gaming Enquiries and Bookings | The Gaming Club</title>
 
+    <meta name="description" content="Make an enquiry about gaming sessions, tournaments, group bookings, events, and membership at The Gaming Club.">
+
+    <meta name="keywords" content="gaming enquiries, gaming bookings, group gaming, gaming events, tournaments">
+
+    <link rel="icon" type="image/png" href="images/home page.png">
     <link rel="stylesheet" href="CSS/styles.css">
+ </head>
 
-</head>
 
 <body>
 
@@ -64,7 +67,16 @@
 
     </header>
 
+    <section>
+    <h2>Search our website</h2>
 
+    <input type="text" id="SearchInput"
+           placeholder="Search here...">
+    
+    <button type="button">Search</button>
+
+    <div id="searchResults"></div>
+ </section>
 
     <!-- PAGE INTRODUCTION -->
 
@@ -117,9 +129,7 @@
 
 
             <!-- ENQUIRY FORM -->
-
-            <form class="enquiry-form">
-
+                <form class="enquiry-form" >
 
                 <!-- NAME -->
 
@@ -270,47 +280,41 @@
 
 
                 <!-- NUMBER OF PLAYERS -->
-
                 <section class="form-group">
 
-                    <label for="players">
-                        Number of Players
-                    </label>
+                    <label for="players">  Number of Players </label>
 
                     <select id="players" name="players">
 
-                        <option value="">
-                            Select number of players
-                        </option>
+                        <option value="">  Select number of players  </option>
 
-                        <option value="1">
-                            1 Player
-                        </option>
+                        <option value="1"> 1 Player</option>
 
-                        <option value="2">
-                            2 Players
-                        </option>
+                        <option value="2"> 2 Players </option>
 
-                        <option value="3">
-                            3 Players
-                        </option>
+                        <option value="3"> 3 Players </option>
 
-                        <option value="4">
-                            4 Players
-                        </option>
-
-                        <option value="5-plus">
-                            5+ Players
-                        </option>
+                        <option value="4"> 4 Players </option>
 
                     </select>
 
                 </section>
 
+                <section  class="form-group">
+                <label for="package">Choose a Gaming Package:</label>
+                <select id="package" name="package" required>
+                    <option value="">Select a package </option>
+
+                    <option value="Basic Package">Basic Package </option>
+
+                    <option value="Standard Package">Standard Package </option>
+
+                    <option value="Premium Package">Premium Package </option>
+                </select>
+                
 
 
                 <!-- DATE -->
-
                 <section class="form-group">
 
                     <label for="date">
@@ -320,15 +324,12 @@
                     <input
                         type="date"
                         id="date"
-                        name="date"
-                    >
-
+                        name="date"   >
                 </section>
 
 
 
                 <!-- TIME -->
-
                 <section class="form-group">
 
                     <label for="time">
@@ -338,15 +339,12 @@
                     <input
                         type="time"
                         id="time"
-                        name="time"
-                    >
-
+                        name="time" >
                 </section>
 
 
 
                 <!-- MESSAGE -->
-
                 <section class="form-group">
 
                     <label for="message">
@@ -359,13 +357,11 @@
                         rows="6"
                         placeholder="Tell us anything else we should know..."
                     ></textarea>
-
                 </section>
 
 
 
                 <!-- TERMS AND AGREEMENT -->
-
                 <section class="checkbox-group">
 
                     <input
@@ -384,14 +380,12 @@
 
 
                 <!-- SUBMIT BUTTON -->
-
                 <button
                     type="submit"
                     class="primary-button"
                 >
                     SUBMIT ENQUIRY
                 </button>
-
 
             </form>
 
@@ -408,8 +402,16 @@
         <h3>
             THE GAMING CLUB
         </h3>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7294.795646538975!2d29.44771267512032!3d-23.910962978561173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d827a6d3019f%3A0xac207bf46b6745c8!2sRosebank%20International%20Polokwane%20Campus!5e0!3m2!1sen!2sza!4v1786692069101!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7294.795646538975!2d29.44771267512032!3d-23.910962978561173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d827a6d3019f%3A0xac207bf46b6745c8!2sRosebank%20International%20Polokwane%20Campus!5e0!3m2!1sen!2sza!4v1786692069101!5m2!1sen!2sza"
+        width="96%"
+        height="350"
+        style="border: 0; max-width: 100%;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
 
 
         <p>
@@ -422,7 +424,7 @@
 
     </footer>
 
-
+<script src ="JS/script.js"></script>
 </body>
 
 </html>
