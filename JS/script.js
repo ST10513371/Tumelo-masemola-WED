@@ -20,15 +20,12 @@ const searchResults = document.querySelector("#searchResults");
 const searchButton = document.querySelector(".search-box button");
 
 function searchWebsite() {
-    if (!searchInput || !searchResults) {
-        alert("The search box could not be found.");
+    if (!searchInput || !searchResults) { alert("The search box could not be found.");
         return;
     }
-
     const searchText = searchInput.value.toLowerCase().trim();
 
-    if (searchText === "") {
-        searchResults.textContent = "Please enter something to search.";
+    if (searchText === "") { searchResults.textContent = "Please enter something to search.";
         return;
     }
 
