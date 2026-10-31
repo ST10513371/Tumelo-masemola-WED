@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ST10153371.github.io/Tumelo-masemola-WED/sitemap.xml
+Sitemap: https://ST10513371.github.io/Tumelo-masemola-WED/sitemap.xml
 
