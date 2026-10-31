@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
 
+ <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Games & Services - The Gaming Club</title>
-     <link rel="icon" type="image/png" href="images/home page.png">
+    <title>Games and Services | The Gaming Club</title>
 
+    <meta name="description" content="Explore gaming PCs, consoles, popular video games, gaming prices, and tournaments at The Gaming Club.">
+
+    <meta name="keywords" content="gaming PCs, PlayStation 5, Xbox, video games, gaming prices, gaming tournaments">
+
+    <link rel="icon" type="image/png" href="images/home page.png">
     <link rel="stylesheet" href="CSS/styles.css">
+ </head>
 
-</head>
 
 <body>
 
@@ -64,6 +67,18 @@
 
     </header>
 
+    <section class="search-section">
+        <h2>Search our website</h2>
+
+        <div class="search-box">
+            <input type="text" id="SearchInput"
+                placeholder="Search here...">
+
+            <button type="button">Search</button>
+        </div>
+
+        <div id="searchResults"></div>
+    </section>
 
 
     <!-- PAGE HERO -->
@@ -432,14 +447,14 @@
             <tbody>
 
                 <tr>
-                    <td>1 Hour</td>
+                    <td>Basic package</td>
                     <td>R30</td>
                     <td>1 Hour</td>
                     <td>Gaming Station + Headset</td>
                 </tr>
 
                 <tr>
-                    <td>3 Hours</td>
+                    <td>Standard package</td>
                     <td>R75</td>
                     <td>3 Hours</td>
                     <td>Gaming Station + Headset + Multiplayer</td>
@@ -626,7 +641,7 @@
 
     </footer>
 
-
+<script src ="JS/script.js"></script>
 </body>
 
 </html>

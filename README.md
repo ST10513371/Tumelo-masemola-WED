@@ -135,7 +135,7 @@ Week 4 - Add JavaScript functionality such as the booking form and form validati
 Week 5 - Test the website and make final design changes and prepare the final  website for submission.<br>
 
 # 6. Part 1 details 
-Part 1 is mostly based on creating the HTML sttructure which includes all the pages for the website.
+Part 1 is mostly based on creating the HTML structure which includes all the pages for the website.
 Part 1 contains all the information about the website , The idea behind it and The main objectives of the website.
 Part 1 also included Adding features and Functionality to the website
 
@@ -150,7 +150,9 @@ Part 2 was for
 - adjusting the width and lenth of the picture , tables and texts
 - Testing if the website would still work with different screen sizes
 
-
+# Part 3 (POE)
+part 3 is mostly based on implementing javascript into my website and finalisng the project which also includes fixing erros and minor mistakes in the website 
+Part 3 involves around making the website more interactitve  
 # 7. Changelog
 1 I Added CSS styling to improve the appearance of the website.
 2 I have Used a black, dark grey and bright blue colour theme.
@@ -161,6 +163,19 @@ Part 2 was for
 7 I have  Added hover effects to buttons and navigation links.
 8 I have Added responsive design so the website so it can work on smaller screens.
 
+# part 2
+9 I added SEO meta titles, descriptions and keywords to the website pages to improve search engine visibility.
+10 I added a website search feature that allows users to search for pages such as Home, About Us, Games & Services, Enquiry and Contact Us.
+11 I Made the search bar responsive so it can fit smaller screens.
+12 I added search result links that allow users to open matching pages.
+13 I added form validation to the enquiry form to check that required fields are completed.
+14 I added contact form validation and a confirmation message after successful form completion.
+15 I Improved the user experience by displaying messages when search results are found or when no matching pages are available.
+
 # 8. Reference
-•	Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
-•	ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].
+1 Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
+
+2 ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/
+news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].<br>
+
+3 MDN Web Docs (2025) Learn web development. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development [Accessed: 31 October 2026].

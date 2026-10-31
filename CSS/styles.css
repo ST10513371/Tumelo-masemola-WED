@@ -981,21 +981,144 @@ footer iframe {
 }
 
 
-/* ======== MOBILE ======== */
 
-@media (max-width: 768px) {
+/* Search Section */
+.search-section {
+    background: #111111;
+    padding: 30px 20px;
+    color: #ffffff;
+}
 
-    .contact-container {
-        flex-direction: column;
+.search-section h2 {
+    max-width: 1080px;
+    margin: 0 auto 20px;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.search-box {
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    border: 1px solid #00bfff;
+    border-radius: 30px;
+    overflow: hidden;
+    background: #222222;
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    padding: 16px 22px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.search-box input::placeholder {
+    color: #bbbbbb;
+}
+
+.search-box input:focus {
+    box-shadow: inset 0 0 0 1px #00bfff;
+}
+
+.search-box button {
+    padding: 0 30px;
+    border: none;
+    background: #00bfff;
+    color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-box button:hover {
+    background: #0099cc;
+}
+
+#searchResults {
+    max-width: 1080px;
+    margin: 15px auto 0;
+    color: #ffffff;
+}
+
+#searchResults a {
+    color: #00bfff;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+#searchResults a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* ====================
+   Mobile Search Bar 
+   ====================*/
+@media (max-width: 600px) {
+    .search-section {
+        padding: 25px 15px;
     }
 
-    .contact-card {
-        width: 100%;
-        box-sizing: border-box;
+    .search-section h2 {
+        font-size: 21px;
     }
 
-    .contact-form-section {
-        padding: 40px 20px;
+    .search-box input {
+        padding: 14px 12px;
+        font-size: 14px;
     }
 
+    .search-box button {
+        padding: 0 18px;
+        font-size: 14px;
+    }
+}
+
+/* ======================
+  Gallery Lightbox
+   ====================== */
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.lightbox-image {
+    max-width: 90%;
+    max-height: 85%;
+    object-fit: contain;
+    border: 2px solid #00bfff;
+    border-radius: 8px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    background: #00bfff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+
+.lightbox-close:hover {
+    background: white;
 }

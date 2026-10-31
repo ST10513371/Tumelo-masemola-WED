@@ -1,24 +1,25 @@
 <!DOCTYPE html> 
 <html lang="en"> 
- 
-<head> 
- 
-    <meta charset="UTF-8"> 
- 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
- 
-    <title>Contact Us - The Gaming Club</title> 
- 
-    <link rel="icon" type="image/png" href="images/home page.png"> 
- 
-    <link rel="stylesheet" href="CSS/styles.css"> 
- 
-</head> 
- 
+
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | The Gaming Club</title>
+
+    <meta name="description" content="Contact The Gaming Club for information about gaming sessions, bookings, services, and other enquiries.">
+
+    <meta name="keywords" content="contact The Gaming Club, gaming contact details, gaming enquiries">
+
+    <link rel="icon" type="image/png" href="images/home page.png">
+    <link rel="stylesheet" href="CSS/styles.css">
+ </head>
+
+
 <body> 
  
     <!-- NAVIGATION --> 
- 
     <header> 
  
         <!-- The gaming club Logo --> 
@@ -58,8 +59,21 @@
         </nav> 
  
     </header> 
- 
- 
+
+
+   <section class="search-section">
+        <h2>Search our website</h2>
+
+        <div class="search-box">
+            <input type="text" id="SearchInput"
+                placeholder="Search here...">
+
+            <button type="button">Search</button>
+        </div>
+
+        <div id="searchResults"></div>
+    </section>
+
     <!-- CONTACT PAGE --> 
  
     <main> 
@@ -78,7 +92,6 @@
  
  
         <!-- CONTACT INFORMATION --> 
- 
         <section class="contact-section"> 
  
             <section class="section-heading"> 
@@ -94,7 +107,6 @@
  
  
                 <!-- LOCATION --> 
- 
                 <article class="contact-card"> 
  
                     <section class="contact-icon"> 
@@ -118,7 +130,6 @@
  
  
                 <!-- PHONE --> 
- 
                 <article class="contact-card"> 
  
                     <section class="contact-icon"> 
@@ -140,7 +151,6 @@
  
  
                 <!-- EMAIL --> 
- 
                 <article class="contact-card"> 
  
                     <section class="contact-icon"> 
@@ -162,7 +172,6 @@
  
  
                 <!-- HOURS --> 
- 
                 <article class="contact-card"> 
  
                     <section class="contact-icon"> 
@@ -195,7 +204,6 @@
  
  
         <!-- CONTACT FORM --> 
- 
         <section class="contact-form-section"> 
  
             <section class="contact-form-container"> 
@@ -218,7 +226,8 @@
                 </section> 
  
  
-                <form> 
+                
+                <form class="contact-form"> 
  
                     <section class="form-group"> 
  
@@ -333,7 +342,6 @@
  
  
     <!-- FOOTER --> 
- 
     <footer> 
  
         <h3> 
@@ -350,6 +358,7 @@
  
     </footer> 
  
+    <script src ="JS/script.js"></script>
 </body> 
  
 </html>
