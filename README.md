@@ -151,26 +151,27 @@ Part 2 was for
 - Testing if the website would still work with different screen sizes
 
 # Part 3 (POE)
-part 3 is mostly based on implementing javascript into my website and finalisng the project which also includes fixing erros and minor mistakes in the website 
-Part 3 involves around making the website more interactitve  
+part 3 is mostly based on implementing javascript into my website and finalisng the project which also includes fixing erros and minor mistakes in the website .<br>
+Part 3 involves around making the website more interactitve.<br>
+
 # 7. Changelog
-1 I Added CSS styling to improve the appearance of the website.
-2 I have Used a black, dark grey and bright blue colour theme.
-3 I have added tables for gaming facilities and pricing to make information simpler to read and understand.
-4 I have designed the layout of the website using css to make it more appealing to users.
-5 I have intergrated my web pages to work together with css. 
-6 I have included icons to the contact page. 
-7 I have  Added hover effects to buttons and navigation links.
-8 I have Added responsive design so the website so it can work on smaller screens.
+1 I Added CSS styling to improve the appearance of the website.<br>
+2 I have Used a black, dark grey and bright blue colour theme.<br>
+3 I have added tables for gaming facilities and pricing to make information simpler to read and understand.<br>
+4 I have designed the layout of the website using css to make it more appealing to users.<br>
+5 I have intergrated my web pages to work together with css. <br>
+6 I have included icons to the contact page. <br>
+7 I have  Added hover effects to buttons and navigation links.<br>
+8 I have Added responsive design so the website so it can work on smaller screens.<br>
 
 # part 2
-9 I added SEO meta titles, descriptions and keywords to the website pages to improve search engine visibility.
-10 I added a website search feature that allows users to search for pages such as Home, About Us, Games & Services, Enquiry and Contact Us.
-11 I Made the search bar responsive so it can fit smaller screens.
-12 I added search result links that allow users to open matching pages.
-13 I added form validation to the enquiry form to check that required fields are completed.
-14 I added contact form validation and a confirmation message after successful form completion.
-15 I Improved the user experience by displaying messages when search results are found or when no matching pages are available.
+9 I added SEO meta titles, descriptions and keywords to the website pages to improve search engine visibility.<br>
+10 I added a website search feature that allows users to search for pages such as Home, About Us, Games & Services, Enquiry and Contact Us.<br>
+11 I Made the search bar responsive so it can fit smaller screens.<br>
+12 I added search result links that allow users to open matching pages.<br>
+13 I added form validation to the enquiry form to check that required fields are completed.<br>
+14 I added contact form validation and a confirmation message after successful form completion.<br>
+15 I Improved the user experience by displaying messages when search results are found or when no matching pages are available.<br>
 
 # 8. Reference
 1 Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
