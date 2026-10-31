@@ -175,8 +175,9 @@ Part 3 involves around making the website more interactitve.<br>
 
 # 8. Reference
 1 Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
-
 2 ACGL. (2025). ACGL Gaming Championship (AGC) LAN announced with R100,000 prize pool. [online] Available at: https://acgl.gg/
 news/ACGL-Gaming-Championship-AGC-LAN-announced-with-R100000-prize-pool?srsltid=AfmBOopRqp_Mv-Csvh_3eO8591CAzOeX9LOl5u9nbWBwyDLb0Mcw5SdK [Accessed 13 Aug. 2026].<br>
-
-3 MDN Web Docs (2025) Learn web development. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development [Accessed: 31 October 2026].
+3 MDN Web Docs (2025) Learn web development. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development [Accessed 31 October 2026].<br>
+4 Sitemaps protocol — https://www.sitemaps.org/protocol.html [Accessed: 31 October 2026]<br>
+5 Google Search Central, robots.txt — https://developers.google.com/search/docs/crawling-
+indexing/robots/intro [Accessed 31 October 2026]
