@@ -134,6 +134,11 @@ Week 3 - Apply CSS styling, colours, fonts, images and page layouts.<br>
 Week 4 - Add JavaScript functionality such as the booking form and form validation.<br>
 Week 5 - Test the website and make final design changes and prepare the final  website for submission.<br>
 
+# 6. Technical requirements
+- HTML
+- CSS
+- JavaScript
+
 # 6. Part 1 details 
 Part 1 is mostly based on creating the HTML structure which includes all the pages for the website.
 Part 1 contains all the information about the website , The idea behind it and The main objectives of the website.
@@ -150,7 +155,7 @@ Part 2 was for
 - adjusting the width and lenth of the picture , tables and texts
 - Testing if the website would still work with different screen sizes
 
-# Part 3 (POE)
+# Part 3 details (POE)
 part 3 is mostly based on implementing javascript into my website and finalisng the project which also includes fixing erros and minor mistakes in the website .<br>
 Part 3 involves around making the website more interactitve.<br>
 
@@ -164,7 +169,7 @@ Part 3 involves around making the website more interactitve.<br>
 7 I have  Added hover effects to buttons and navigation links.<br>
 8 I have Added responsive design so the website so it can work on smaller screens.<br>
 
-# part 2
+# part 3
 9 I added SEO meta titles, descriptions and keywords to the website pages to improve search engine visibility.<br>
 10 I added a website search feature that allows users to search for pages such as Home, About Us, Games & Services, Enquiry and Contact Us.<br>
 11 I Made the search bar responsive so it can fit smaller screens.<br>
@@ -172,6 +177,13 @@ Part 3 involves around making the website more interactitve.<br>
 13 I added form validation to the enquiry form to check that required fields are completed.<br>
 14 I added contact form validation and a confirmation message after successful form completion.<br>
 15 I Improved the user experience by displaying messages when search results are found or when no matching pages are available.<br>
+16 I Improved search feedback by displaying messages when results are found or when no matching pages are available.<br>
+17 I Created a robots.txt file to provide instructions to search engine.<br>
+18 Created a sitemap.xml file listing the website's main pages, including Home, About Us, Games and Services, Enquiry, and Contact Us.<br>
+19 I Updated the URLs in robots.txt and sitemap.xml to use the correct GitHub Pages website address.<br>
+20 I Checked the website files and published the website using GitHub Pages. <br>
+21 I Tested the published robots.txt and sitemap.xml files through their website URLs.<br>
+22 I Updated the website files and pushed changes to the GitHub repository.<br>
 
 # 8. Reference
 1 Lounge, G.G. (2026). GT Gaming Lounge. [online] GT Gaming Lounge. Available at: https://gtgaming.co.za/ [Accessed 13 Aug. 2026].<br>
